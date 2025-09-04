@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>goUP | Download</title>
+        <link rel="stylesheet" href="/styles.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>goUP | Download</title>
-  <link rel="stylesheet" href="/styles.css">
+        <link rel="shortcut icon" href="/other/favicon/favicon.ico" />
+        <link rel="icon" href="/other/favicon/favicon.ico" />
 
-  <link rel="shortcut icon" href="/other/favicon/favicon.ico">
-  <link rel="icon" href="/other/favicon/favicon.ico">
+        <meta name="description" content="Download the goUP Store for Windows. You can install and manage all goUP apps with goUP Store" />
 
-  <meta name='description' content='Download the goUP Store for Windows. You can install and manage all goUP apps with goUP Store'>
+        <link rel="alternate" href="/get" hreflang="en" />
+        <link rel="alternate" href="/ko/get" hreflang="ko" />
 
-  <link rel="alternate" href="/get" hreflang="en"/>
-  <link rel="alternate" href="/ko/get" hreflang="ko"/>
+        <!--PrivateStater-Start-->
+        <script>
+            window.PrivateStaterConfig = { prstUser: "gpdir16", prstSite: "goUP" };
+        </script>
+        <script src="https://privatestater.com/privatestater.js" async></script>
+        <!--PrivateStater-End-->
+    </head>
 
-  <!--PrivateStater-Start-->
-  <script>window.PrivateStaterConfig = { prstUser: 'gpdir16', prstSite: 'goUP' }</script>
-  <script src="https://stater.goup.im/privatestater.js" async></script>
-  <!--PrivateStater-End-->
-</head>
+    <body>
+        <iframe src="/lang" style="border: none; width: 100%; height: 20px"></iframe>
 
-<body>
+        <header>
+            <nav>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul id="menu">
+                    <li><a href="/">goUP</a></li>
+                    <li><a href="/apps">Apps</a></li>
+                    <select_items
+                        ><li><a href="/download">Download</a></li></select_items
+                    >
+                    <li><a href="/help">Support</a></li>
+                    <li><a href="/goup_id">ID</a></li>
+                </ul>
+            </nav>
+        </header>
 
-  <iframe src="/lang" style="border: none; width: 100%; height: 20px;"></iframe>
+        <script src="/menubar.js"></script>
 
-  <header>
-    <nav>
-      <div class="hamburger" onclick="toggleMenu()">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-      <ul id="menu">
-        <li><a href="/">goUP</a></li>
-        <li><a href="/apps">Apps</a></li>
-        <select_items><li><a href="/download">Download</a></li></select_items>
-        <li><a href="/help">Support</a></li>
-        <li><a href="/goup_id">ID</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <script src="/menubar.js"></script>
+        <div class="top_title_con">
+            <div class="title_con">
+                <div class="title_box">
+                    <span class="big-b-text">Thank you!</span>
+                    <p class="mini-n-text">Please run the 'Setup3.exe' file in your download folder to install</p>
+                    <p class="mini-n-text">
+                        <select_items>⚠️ How to resolve Windows PC protection window</select_items><br />If the "Windows PC protection" window appears
+                        on some computers and installation does not proceed, click "More info" and then click "Run"
+                    </p>
+                    <p class="mini-n-text">
+                        <select_items>⚠️ Windows Defender Exception Handling</select_items><br />If Windows Defender mistakenly detects goUP
+                        Setup3.exe as malware, please set that file as an exception and restore it<br />If Windows Defender deletes the file, you will
+                        need to manually download the installer from https://goup.im when uninstalling goUP Store
+                    </p>
 
-  <div class="top_title_con">
-  <div class="title_con">
-    <div class="title_box">
-      <span class="big-b-text">Thank you!</span>
-      <p class="mini-n-text">Please run the 'Setup3.exe' file in your download folder to install</p>
-      <p class="mini-n-text"><select_items>⚠️ How to resolve Windows PC protection window</select_items><br>If the "Windows PC protection" window appears on some computers and installation does not proceed, click "More info" and then click "Run"</p>
-      <p class="mini-n-text"><select_items>⚠️ Windows Defender Exception Handling</select_items><br>If Windows Defender mistakenly detects goUP Setup3.exe as malware, please set that file as an exception and restore it<br>If Windows Defender deletes the file, you will need to manually download the installer from https://goup.im when uninstalling goUP Store</p>
+                    <a href="https://files.goup.im/goUP-Store/Setup3.exe" class="download_bt">If the download did not start, click here</a>
+                </div>
 
-      <a href="https://files.goup.im/goUP-Store/Setup3.exe" class="download_bt">If the download did not start, click here</a>
-    </div>
-
-    <meta http-equiv="refresh" content="0;URL='https://files.goup.im/goUP-Store/Setup3.exe'"/>
-  </div>
-  </div>
-
-</body>
+                <meta http-equiv="refresh" content="0;URL='https://files.goup.im/goUP-Store/Setup3.exe'" />
+            </div>
+        </div>
+    </body>
 </html>
